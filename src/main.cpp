@@ -43,11 +43,8 @@
 // Battery gauge
 #include <Adafruit_MAX1704X.h>
 
-// Display — copy st7789h2.cpp/.h into lib/st7789h2/ then uncomment
-// #include "st7789h2.h"
-
-// QR — copy libqrencode source into lib/libqrencode/ then uncomment
-// #include "qrencode.h"
+#include "st7789h2.h"
+#include "qrencode.h"
 
 // AP anchor map for WiFi positioning
 // #include "ap_anchor.h"
