@@ -1,0 +1,15 @@
+# ESP-IDF build artifacts
+build/
+
+# SDK configuration (auto-generated from sdkconfig.defaults)
+sdkconfig
+sdkconfig.old
+
+# VS Code local machine settings (contains absolute tool paths)
+.vscode/settings.json
+
+# Dependencies managed by IDF component manager
+managed_components/
+
+# Flasher metadata
+*.map
